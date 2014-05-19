@@ -1,6 +1,6 @@
 script.Parent = nil
 
-SmartAdmin = {}
+SmartAdmin = {} -- you need more potatos
 SmartAdmin.Ranks = { -- You can change the names of the ranks, just don't change the numbers, and don't add or remove any.
 	[-2] = "Lagged",
 	[-1] = "Banned",
