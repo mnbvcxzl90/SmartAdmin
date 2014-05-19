@@ -20,13 +20,13 @@ SmartAdmin.Settings = {
 	["Colors"] = {"New Yeller","Bright blue","Bright red","Bright green","Bright violet","Neon orange","Lime green","Alder"}, -- The colors randomly picked for players.
 	["SeparationKeys"] = {"/", ">", " "}, -- These are the keys that you put between the commands.
 	["TabletSize"] = Vector3.new(2,2,2), -- I guess you can mess with it, but do so at your own risk.
-	["TabletMovement"] = "Clientside", -- Clientside or Serverside(Clientside looks better)
+	["TabletMovement"] = "Clientside", -- Clientside or Serverside (Clientside looks smoother, but it requires injecting a localscript into each player.)
 	["TabletShape"] = "Block", -- Block, Ball, Cylinder (Block looks the best, as other shapes have limited sizes.)
 	["TitleTabletSize"] = Vector3.new(3,2,2), -- Like said before, edit at your own risk.
 	--["TabletMesh"] = "http://www.roblox.com/asset/?id=1064328",
-	--["TabletMeshScale"] = Vector3.new(0.03,0.03,0.03), -- Don't bother with it.
-	["Font"] = "Legacy", -- Dat font doe.
-	["FontSize"] = "Size12", -- Dat font size doe.
+	--["TabletMeshScale"] = Vector3.new(0.03,0.03,0.03), -- Mesh Tablets were a fun experiment.
+	["Font"] = "Legacy", -- Font used by the tablets and GUIs.
+	["FontSize"] = "Size12", -- Font size used by the tablets and GUIs.
 }
 local Players = game:GetService("Players")
 local LastPlayers = {}
